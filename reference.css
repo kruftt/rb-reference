@@ -44,6 +44,72 @@ body {
   max-width: 2em;
 }
 
+.rb-econ {
+
+}
+
+.rb-econ__bldgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.rb-econ__bldg {
+  
+}
+
+
+.rb-econ__bldg-data {
+  padding: 0.5em !important;
+}
+
+
+.rb-econ__bldg-ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.rb-econ__bldg-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.4em;
+}
+
+.rb-econ__bldg-li-label {
+  margin: 0 0.5em 0 0;
+}
+
+.rb-econ__bldg-li-controls {
+  display: flex;
+  align-items: flex-end;
+  font-weight: bold;
+}
+
+.rb-econ__button {
+  width: 1.2em;
+  filter: brightness(80%)
+}
+
+.rb-econ__arrow-button {
+  font-size: 0.8em;
+  margin: 0 0.2em;
+}
+
+.rb-econ__arrow-button:hover {
+  background-color: #555;
+}
+
+.rb-econ__amount-text {
+  color: #ccc;
+  background-color: #111;
+  border: 0.04em inset #222;
+  padding: 0.1em 0.2em 0;
+}
+
+.rb-econ__button:hover {
+  background-color: #555;
+}
+
 .rb-col__selector {
   display: flex;
   border-bottom: 0.3em ridge #222;
@@ -84,6 +150,19 @@ body {
   background-color: #181818;
   border: 0.1em outset #222;
   padding: 0.2em;
+}
+
+.rb-ent__build-button {
+  position: absolute;
+  top: 0.4em;
+  left: 0.4em;
+  width: 1.6em;
+  opacity: 0.3;
+}
+
+.rb-ent__build-button:hover {
+  background-color: #fff4;
+  opacity: 1;
 }
 
 .rb-ent__col {
@@ -183,4 +262,11 @@ body {
 .ivc {
   display: flex;
   flex-flow: column;
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 }
