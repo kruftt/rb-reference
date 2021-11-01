@@ -405,6 +405,7 @@ const data = {
       name: 'Carbonium Factory',
       type: 'building',
       icon: 'carbonium_factory',
+      tiers: 3,
       health: [1000,1300,1600],
       cost: {
         carbonium: [50,200,800],
@@ -418,6 +419,7 @@ const data = {
       name: 'Ironium Factory',
       type: 'building',
       icon: 'steel_factory',
+      tiers: 3,
       health: [1000,1300,1600],
       cost: {
         ironium: [50,200,800],
@@ -431,6 +433,7 @@ const data = {
       name: 'Rare Element Mine',
       type: 'building',
       icon: 'rare_element_mine',
+      tiers: 3,
       health: [1000,1500,2250],
       cost: {
         ironium: [250,1000,2000],
@@ -443,6 +446,7 @@ const data = {
       name: 'Carbonium Synthesizer',
       type: 'building',
       icon: 'carbonium_synthesizer',
+      tiers: 3,
       health: [1000,1500,2250],
       cost: {
         ironium: [500,1000,1500],
@@ -457,6 +461,7 @@ const data = {
       name: 'ironium Synthesizer',
       type: 'building',
       icon: 'carbonium_synthesizer',
+      tiers: 3,
       health: [1000,1500,2250],
       cost: {
         ironium: [500,1000,1500],
