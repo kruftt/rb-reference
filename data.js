@@ -347,7 +347,7 @@ const data = {
         energy: [-40,-80,-160,-320,-640],
         carbonium: [-1,-2,-3,-4,-5],
         ironium: [-1,-2,-3,-4,-5],
-        ammo: [1,1.1,1.2,1.3,1.4]
+        // ammo: [1,1.1,1.2,1.3,1.4]
       }
     },
     ammo_factory: {
@@ -365,7 +365,7 @@ const data = {
         energy: [-40,-80,-160],
         carbonium: [-1,-2,-3],
         ironium: [-1,-2,-3],
-        tower_ammo: [1,2,4]
+        // tower_ammo: [1,2,4]
       }
     },
     ammo_storage: {

@@ -155,7 +155,7 @@ function getFlow(propName) {
   return function() {
     const input = this.stats.production[propName]
     const output = this.stats.upkeep[propName]
-    const delta = input - output
+    const delta = input + output
     return `
       ${delta} (
       <span style="color:${colors.green};">${input}</span>
