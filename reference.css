@@ -27,7 +27,7 @@ body {
 
 .rb-col {
   flex: 0 0 auto;
-  border: 0.2em ridge #222;
+  border: 0.2em solid #222;
   margin: 0 0.15em;
   background-color: #141414;
 }
@@ -102,7 +102,7 @@ body {
 .rb-econ__amount-text {
   color: #ccc;
   background-color: #111;
-  border: 0.04em inset #222;
+  border: 0.04em solid #222;
   padding: 0.1em 0.2em 0;
 }
 
@@ -112,13 +112,13 @@ body {
 
 .rb-col__selector {
   display: flex;
-  border-bottom: 0.3em ridge #222;
+  border-bottom: 0.3em solid #222;
   padding: 0 0 0.01em 0.06em;
   margin-left: -0.1em;
 }
 
 .rb-col__selector-button {
-  border: 0.1em outset #222;
+  border: 0.1em solid #222;
   background-color: #181818;
   padding: 0.2em 0.4em;
   color: #aaa;
@@ -127,7 +127,7 @@ body {
 }
 
 .rb-col__selector-buton--active {
-  border: 0.1em outset #282828;
+  border: 0.1em solid #282828;
   border-bottom: 0.15em solid #222;
   margin-bottom: -0.05em;
   background-color: #222;
@@ -148,7 +148,7 @@ body {
   gap: 0.5em;
   justify-content: flex-start;
   background-color: #181818;
-  border: 0.1em outset #222;
+  border: 0.1em solid #222;
   padding: 0.2em;
 }
 
@@ -184,7 +184,7 @@ body {
   display: flex;
   justify-content: flex-end;
   background-color: #171717;
-  border: 0.04em inset #222;
+  border: 0.04em solid #222;
   padding: 0.2em;
 }
 
